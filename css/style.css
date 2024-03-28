@@ -1,0 +1,286 @@
+@import "./fonts.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: white;
+  transition: 200ms;
+}
+
+.btn:hover {
+  display: none;
+  background: rgb(23, 23, 24);
+  box-shadow: 0 0 10px 0 red;
+  opacity: 0;
+}
+
+.header__nav {
+  padding: 9px 0;
+  position: relative;
+  background: #282828;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  column-gap: 30px;
+  margin-right: 683px;
+}
+
+.header__link {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header__img-shop {
+  margin-right: 25px;
+}
+
+.header__banner {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgb(21, 21, 21) 100%),
+    url(191028135414-airpods-pro-apple);
+}
+
+.header__banner-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.header__title {
+  color: #fff;
+  font-family: "Prosto One";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 75px;
+  margin-bottom: 38px;
+  text-transform: capitalize;
+}
+
+.header__btn {
+  border-radius: 10px;
+  background: #fff;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  color: #171718;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-left: 11px;
+  padding: 13px 14px;
+  transition: 500ms;
+}
+
+.AirPods {
+  padding: 30px 0 55px;
+  background: #151515;
+}
+
+.product_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.product__desc {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  max-width: 538px;
+  height: 135px;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+.product_2 {
+  display: flex;
+}
+
+.product_2-img {
+  max-width: 457px;
+  height: 408px;
+}
+
+.product__desc2 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 150px;
+  max-width: 540px;
+  height: 107px;
+}
+
+.product_3 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.product__3-desc {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 333px;
+  margin-top: 145px;
+}
+
+.product__3-arrow {
+  margin: 0 14px;
+  max-width: 61px;
+  height: 1px;
+  margin-top: 205px;
+}
+
+.cards {
+  padding: 55px 0;
+  background: #151515;
+}
+
+.cards__box {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.cards__item {
+  max-width: 255px;
+  height: 312px;
+  border-radius: 6px;
+  padding: 15px 0;
+  background: #fff;
+}
+
+.cards__img {
+  max-width: 127.5px;
+  width: 100%;
+  height: 167px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cards__title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 58px;
+  text-align: center;
+}
+
+.cards__img {
+  margin: 10px 63px;
+  object-fit: cover;
+  position: relative;
+}
+
+.cards__desc {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin: 0 62px 20px;
+}
+
+.cards__btn {
+  background: #151515;
+  width: 161px;
+  height: 34px;
+  padding: 7px 57px;
+  margin: 0 47px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.footer {
+  box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(40, 40, 40);
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.footer__link {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 95px;
+  margin-top: 96px;
+}
+
+.footer__icons {
+  display: flex;
+  column-gap: 29px;
+}
+
+.footer__icon {
+  max-width: 70px;
+  height: 55px;
+  width: 100%;
+}
